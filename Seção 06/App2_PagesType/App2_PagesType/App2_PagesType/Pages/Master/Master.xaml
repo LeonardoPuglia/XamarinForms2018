@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:master="clr-namespace:App2_PagesType.Pages.Master"
+             x:Class="App2_PagesType.Pages.Master.Master">
+
+    <MasterDetailPage.Master>
+        <!--Menu-->
+        <!--<ContentPage.ToolbarItems>
+            <ToolbarItem Text="Pesquisa" />
+            <ToolbarItem Text="Detalhes" />
+            <ToolbarItem Text="Ordernar" />
+        </ContentPage.ToolbarItems>-->
+        
+        <ContentPage Title="Menu">
+            <StackLayout>
+                <Button Text="Página 1" BackgroundColor="Transparent" Clicked="ChangePageOne" />
+                <Button Text="Página 2" BackgroundColor="Transparent" Clicked="ChangePageTwo"/>
+                <Button Text="Conteúdo" BackgroundColor="Transparent" Clicked="ChangePageContent" />
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <!--Conteudo-->
+        <master:Conteudo />
+    </MasterDetailPage.Detail>
+</MasterDetailPage>
