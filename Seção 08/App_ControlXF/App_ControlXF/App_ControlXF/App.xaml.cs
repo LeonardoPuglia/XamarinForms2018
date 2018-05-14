@@ -13,7 +13,7 @@ namespace App_ControlXF
 		{
 			InitializeComponent();
 
-			MainPage = new App_ControlXF.MainPage();
+			MainPage = new Master.Master();
 		}
 
 		protected override void OnStart ()

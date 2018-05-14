@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_ControlXF.Controls.LabelPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Dui sapien duis habitasse aliquam netus, molestie dictumst dui maecenas."
+                   TextColor="White"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   LineBreakMode="WordWrap"
+                   BackgroundColor="Black"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

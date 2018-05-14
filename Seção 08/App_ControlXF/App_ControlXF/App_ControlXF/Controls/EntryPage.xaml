@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_ControlXF.Controls.EntryPage">
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical">
+            <StackLayout>
+                <!--InputView : Permite utilizar o KeyBoard Virtual-->
+                <Entry x:Name="TxtName"
+                   Text=""                   
+                   TextColor="Aquamarine"
+                   Placeholder="Input your age ..."                   
+                   PlaceholderColor="DarkRed"
+                   IsPassword="false"
+                   Keyboard="Numeric"                   
+                   BackgroundColor="#CCCCCC"/>
+
+                <Label Text="Input your password:"/>
+                <Entry x:Name="TxtPass" 
+                   IsPassword="True"/>
+
+                <Label Text="I can see your Password ..."/>
+                <Label x:Name="LblPass"/>
+
+                <Label x:Name="Lbl_Duplicate" />
+                <Editor x:Name="TxtComment"                     
+                    HeightRequest="200"                    
+                    BackgroundColor="Black"
+                    TextColor="White"
+                    FontSize="16"/>
+
+                <Label x:Name="LblQtdCaracters"/>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

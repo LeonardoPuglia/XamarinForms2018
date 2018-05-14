@@ -128,4 +128,7 @@
       <Name>App_ControlXF</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Red_button.png" />
+  </ItemGroup>
 </Project>

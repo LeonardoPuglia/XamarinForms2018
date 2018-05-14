@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App_ControlXF.Controls.ProgressiveBarPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ProgressBar x:Name="BarOne" Progress=".1" />
+            <ProgressBar x:Name="BarTwo" Progress=".1" />
+            <ProgressBar x:Name="BarThree" Progress=".1" />
+
+            <StackLayout Orientation="Horizontal" Spacing="10">
+                <Button Text="Modify Bar" Clicked="ModifyProgressBar"/>
+
+                <Button Text="Reset Bar" Clicked="ResetProgressBar"/>
+                
+                <Button Text="Reset This Fuuck !" Clicked="ResetFuckProgressBar"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
